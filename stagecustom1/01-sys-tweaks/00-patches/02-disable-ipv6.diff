@@ -1,0 +1,5 @@
+--- stagecustom1.orig/rootfs/boot/cmdline.txt
++++ stagecustom1/rootfs/boot/cmdline.txt
+@@ -1 +1 @@
+-console=serial0,115200 console=tty1 root=ROOTDEV rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait
++console=serial0,115200 console=tty1 root=ROOTDEV rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait ipv6.disable=1
